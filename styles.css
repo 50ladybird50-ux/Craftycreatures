@@ -162,9 +162,17 @@ body {
 }
 
 .gallery-item p {
-    padding: 0 1rem 1rem;
+    padding: 0 1rem 0.5rem;
     color: #666;
     font-size: 0.95rem;
+}
+
+.price {
+    display: block;
+    padding: 0.5rem 1rem 1rem;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 /* About Section */
